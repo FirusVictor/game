@@ -1,9 +1,5 @@
 //region base
-<<<<<<< HEAD
-const canvas = document.getElementById('canvas');
-=======
 var canvas = document.getElementById('canvas');
->>>>>>> origin/master
 canvas.width = canvas.offsetWidth;
 canvas.height = canvas.offsetHeight;
 var context = canvas.getContext('2d');
@@ -15,6 +11,6 @@ $(".btn.start-game").click(function (e) {
     e.preventDefault();
     $(".main-menu").hide();
     $("canvas").show();
-    context.fillStyle = "#333";
+    context.fillStyle = "#999999";
     context.fillRect(0,0,100,100);
 });
