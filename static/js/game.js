@@ -1,5 +1,9 @@
 //region base
+<<<<<<< HEAD
 const canvas = document.getElementById('canvas');
+=======
+var canvas = document.getElementById('canvas');
+>>>>>>> origin/master
 canvas.width = canvas.offsetWidth;
 canvas.height = canvas.offsetHeight;
 var context = canvas.getContext('2d');
